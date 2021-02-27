@@ -1,0 +1,123 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:14px;
+}
+body{
+  width:100%;
+  min-height:100vh;
+  background-color:rgb(243, 243, 243);
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content:center;
+}
+.wrapper{
+  /*margin-top:2em;*/
+  display:flex;
+  align-items:center;
+  justify-content:start;
+  width:60%;
+  height:100vh;
+}
+.cel{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:50%;
+}
+.cel img{
+  height:50rem;
+}
+.cont{
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  flex-direction:column;
+  width:50%;
+  min-height:34rem;
+}
+.group{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-direction:column;
+  background-color:#ffffff;
+  width:100%;
+  padding:1.3rem 0;
+  border:1px solid lightgray;
+  margin-top:2rem;
+}
+.group:nth-child(1){
+  min-height:19rem;
+}
+.logo{
+ /* height:3rem;*/
+}
+.insta-the-foto{
+  display:flex;
+  align-items:center;
+  /*justify-content:center;*/
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  overflow:hidden;
+  width:100px;
+  height:100px;
+  border:1px solid lightgray;
+  margin-top:2rem;
+}
+.foto{
+  width:100px;
+  height:100px;
+}
+.bt-login{
+  /*background-color: #0095f6;
+  border-radius:4px;
+  border:none;
+  width:14rem;
+  height:2rem;
+  cursor:pointer;
+  color:white;
+  margin-top:2rem;*/
+}
+.insta-login{
+  background-color: #0095f6;
+  border-radius:4px;
+  border:none;
+  width:14rem;
+  height:auto;
+  padding:.4rem;
+  cursor:pointer;
+  color:white;
+  margin-top:2rem;
+  text-align:center;
+}
+.insta-logout{
+  cursor:pointer;
+  margin-top:2rem;
+  color: #0095f6;
+}
+.not-account{
+  cursor:pointer;
+}
+.link-blue{
+  cursor:pointer;
+  color: #0095f6;
+}
+.get-the-app{
+  margin-top:2rem;
+}
+.get-app{
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  flex-direction:column;
+}
+.and{
+  margin-top:2rem;
+  cursor:pointer;
+}
